@@ -1,0 +1,21 @@
+.key-btn {
+    border: 0.2rem solid black;
+    transition: all .07s ease;
+    /* transition: border .07s ease; */
+    /* border-color: #ffc600; */
+    /* border-color: black;
+    border-style: solid; */
+    /* background: rgba(0, 0, 0, 0.4); */
+    /* text-shadow: 0 0 .5rem black; */
+
+}
+.playing {
+    transform: scale(1.1);
+    border: 0.2rem solid #ffc600;
+    /* border-color: #ffc600; */
+    box-shadow: 0 0 0.5rem #ffc600;
+}
+
+/* .key-btn:hover {
+    border-color: #ffc600;
+} */

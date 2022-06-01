@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Drum Kit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="flex flex-row justify-center items-center h-screen bg-cover bg-[url(https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/background.jpg)]"
+    >
+      <div
+        data-key="65"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <!-- <div data-key="65" class="key-btn"> -->
+        <kbd class="text-3xl text-white">A</kbd>
+        <span class="uppercase text-xs text-yellow-500">clap</span>
+      </div>
+      <div
+        data-key="83"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">S</kbd>
+        <span class="uppercase text-xs text-yellow-500">hihat</span>
+      </div>
+      <div
+        data-key="68"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">D</kbd>
+        <span class="uppercase text-xs text-yellow-500">kick</span>
+      </div>
+      <div
+        data-key="70"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">F</kbd>
+        <span class="uppercase text-xs text-yellow-500">openhat</span>
+      </div>
+      <div
+        data-key="71"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">G</kbd>
+        <span class="uppercase text-xs text-yellow-500">boom</span>
+      </div>
+      <div
+        data-key="72"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">H</kbd>
+        <span class="uppercase text-xs text-yellow-500">ride</span>
+      </div>
+      <div
+        data-key="74"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">J</kbd>
+        <span class="uppercase text-xs text-yellow-500">snare</span>
+      </div>
+      <div
+        data-key="75"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">K</kbd>
+        <span class="uppercase text-xs text-yellow-500">tom</span>
+      </div>
+      <div
+        data-key="76"
+        class="key-btn flex flex-col text-center mx-2 h-16 w-20 bg-transparent/[0.6] cursor-pointer"
+      >
+        <kbd class="text-3xl text-white">L</kbd>
+        <span class="uppercase text-xs text-yellow-500">tink</span>
+      </div>
+    </div>
+    <audio
+      data-key="65"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/clap.wav"
+    ></audio>
+    <audio
+      data-key="83"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/hihat.wav"
+    ></audio>
+    <audio
+      data-key="68"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/kick.wav"
+    ></audio>
+    <audio
+      data-key="70"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/openhat.wav"
+    ></audio>
+    <audio
+      data-key="71"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/boom.wav"
+    ></audio>
+    <audio
+      data-key="72"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/ride.wav"
+    ></audio>
+    <audio
+      data-key="74"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/snare.wav"
+    ></audio>
+    <audio
+      data-key="75"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/tom.wav"
+    ></audio>
+    <audio
+      data-key="76"
+      src="http://www.thomaspritchard.me/Javascript30/01%20-%20JavaScript%20Drum%20Kit/sounds/tink.wav"
+    ></audio>
+  </body>
+  <script src="./script.js"></script>
+</html>
